@@ -1,6 +1,6 @@
 {
-    "name": "usBTronica",
-    "short_name": "usBTronica",
+    "name": "Thingy Pong",
+    "short_name": "Thingy Pong",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#d99449",

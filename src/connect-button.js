@@ -101,7 +101,7 @@ export class ConnectButton extends LitElement {
         this.ctx.fillStyle = '#000000';
 
         this.ctx.beginPath();
-        this.ctx.arc(60, 10, 6, 0, 2 * Math.PI);
+        this.ctx.arc(10, 10, 6, 0, 2 * Math.PI);
         this.ctx.fill();
     }
 

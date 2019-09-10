@@ -63,7 +63,7 @@ export class GameCanvas extends LitElement {
             },
             right: {
                 pos: 0,
-                velocity: 0.1,
+                velocity: 0,
                 big: false
             }
         }
