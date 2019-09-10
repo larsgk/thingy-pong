@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!--
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/service-worker.js');
+            }
+        </script>
+    -->
+    <script src="./webcomponents-loader.js" defer></script>
+    <script src='./index.js'></script>
+    <meta name="description" content="Pong game using the Nordic Thingy:52">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        @import './assets/fonts/fonts.css';
+
+        html, body {
+            margin:0;
+            height: 100%;
+
+            background: black;
+            /* checkerboard bg - for dev ease */
+            /* background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+            background-size: 30px 30px;
+            background-position: 0 0, 0 15px, 15px -15px, -15px 0px; */
+        }
+    </style>
+
+    <title>Thingy Pong</title>
+    <meta name="viewport" content="width=1024, initial-scale=1.0">
+    <link rel="manifest" href="./manifest.json">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <meta charset="UTF-8">
+</head>
+<body>
+    <main-app></main-app>
+</body>
